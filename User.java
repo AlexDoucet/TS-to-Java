@@ -5,11 +5,11 @@ public class User{
 
 private Date birthdate;
 private int size;
-private Photo[] photos;
+private ArrayList<Photo> photos;
 private Address address;
 
 
-    public User(Date birthdate, int size, Photo[] photos, Address address) {
+    public User(Date birthdate, int size, ArrayList<Photo> photos, Address address) {
         this.birthdate = birthdate;
         this.size = size;
         this.photos = photos;
@@ -31,10 +31,10 @@ private Address address;
         this.size = size;
     }
 
-    public Photo[] getPhotos() {
+    public ArrayList<Photo> getPhotos() {
         return this.photos;
     }
-    public void setPhotos(Photo[] photos) {
+    public void setPhotos(ArrayList<Photo> photos) {
         this.photos = photos;
     }
 
