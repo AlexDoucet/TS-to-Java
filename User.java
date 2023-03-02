@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class User{
@@ -44,7 +44,6 @@ private Address address;
     public void setAddress(Address address) {
         this.address = address;
     }
-
 
 
 }
